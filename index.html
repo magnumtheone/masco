@@ -1,0 +1,523 @@
+<!DOCTYPE html> 
+<html lang="fr"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, 
+initial-scale=1.0"> 
+    <title>Masco Énergie et Construction</title> 
+    
+    <!-- Font Awesome for icons --> 
+    <link rel="stylesheet" 
+ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/
+ css/all.min.css">
+ <link rel="stylesheet" href="style.css">
+    
+</head> 
+<body> 
+ 
+    <!-- Header & Navigation --> 
+    <header> 
+        <nav class="container"> 
+            <!-- Logo --> 
+            <a href="#hero" class="logo"> 
+                <!-- Placeholder for Masco Logo - Replace with actual 
+logo image --> 
+                <img 
+src="MASCO 1-1.png" alt="Masco 
+Logo"> 
+                <span style="color: #e67e22;">MACO</span> 
+            </a> 
+ 
+            <!-- Mobile Menu Button --> 
+            <div class="mobile-menu-toggle"> 
+                <button id="mobile-menu-button"> 
+                    <svg class="w-6 h-6" fill="none" 
+stroke="currentColor" viewBox="0 0 24 24" 
+xmlns="http://www.w3.org/2000/svg"> 
+                        <path stroke-linecap="round" 
+stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 
+6h7"></path> 
+                    </svg> 
+                </button> 
+            </div> 
+ 
+            <!-- Desktop Navigation --> 
+            <ul id="main-nav"> 
+                <li><a href="#hero">Accueil</a></li> 
+                <li><a href="#about">À propos</a></li> 
+                <li><a href="#services">Nos Services</a></li> 
+                <li><a href="#projects">Projets</a></li> 
+                <li><a href="#submit-project">Soumettre un 
+projet</a></li> 
+                <li><a href="#contact">Contact</a></li> 
+            </ul> 
+        </nav> 
+ 
+        <!-- Mobile Menu (Hidden by default) --> 
+        <div id="mobile-menu"> 
+            <ul> 
+                <li><a href="#hero">Accueil</a></li> 
+                <li><a href="#about">À propos</a></li> 
+                <li><a href="#services">Nos Services</a></li> 
+                <li><a href="#projects">Projets</a></li> 
+                <li><a href="#submit-project">Soumettre un 
+projet</a></li> 
+                <li><a href="#contact">Contact</a></li> 
+            </ul> 
+        </div> 
+    </header> 
+ 
+    <!-- Hero Section (Accueil) --> 
+    <section id="hero"> 
+        <!-- Image Carousel Backgrounds --> 
+        <div id="hero-carousel-bg-1" class="hero-background-carousel 
+active" style="background-image: 
+url('equipe.jpg');"></div> 
+        <div id="hero-carousel-bg-2" class="hero-background-carousel" 
+style="background-image: 
+url('ferre.jpeg');"></div> 
+        <div id="hero-carousel-bg-3" class="hero-background-carousel" 
+style="background-image: 
+url('le-concept-de-technologie-futuriste.jpg');"></div> 
+        <div id="hero-carousel-bg-4" class="hero-background-carousel" 
+style="background-image: 
+url('un-courtier-immobilier-et-un-client-negocient-un-contrat-de-location-pour-un-bureau-de-haute-classe.jpg');"></div> 
+        <div id="hero-carousel-bg-5" class="hero-background-carousel" 
+style="background-image: 
+url('ouvrier.jpeg');"></div> 
+        <div id="hero-carousel-bg-5" class="hero-background-carousel" 
+style="background-image: 
+url('');"></div> 
+        <div id="hero-carousel-bg-5" class="hero-background-carousel" 
+style="background-image: 
+url('');"></div> 
+ 
+        <!-- Overlay for better text readability --> 
+        <div class="overlay"></div> 
+        <div class="container content"> 
+            <h1 class="animate-fade-in-down"> 
+                Construire l'Afrique, <br> Concevoir l'avenir. 
+            </h1> 
+            <p class="animate-fade-in-up"> 
+                Maco Énergie et Construction, fondée en 2012 et basée 
+à Kisangani en RDC, est dédiée à la conception, la réalisation et 
+l'accompagnement de projets d'infrastructure innovants. 
+            </p> 
+            <div class="buttons"> 
+                <a href="#services" class="btn btn-primary 
+animate-fade-in-up-delay-1">Nos services</a> 
+                <a href="#submit-project" class="btn btn-secondary 
+animate-fade-in-up-delay-2">Soumettre un projet</a> 
+            </div> 
+        </div> 
+    </section> 
+ 
+    <!-- About Section (Qui sommes-nous ?) --> 
+    <section id="about"> 
+        <div class="container"> 
+            <div class="about-content-wrapper fade-in-on-scroll"> 
+                <div class="about-text-content"> 
+                    <h2 class="text-primary-blue">Qui sommes-nous 
+?</h2> 
+                    <p> 
+                        Maco Énergie et Construction est une Société 
+Anonyme (SA) créée en 2012, basée à Kisangani, République Démocratique 
+du Congo. Nous sommes un acteur majeur dans le génie civil, les 
+infrastructures ferroviaires, la consultance, les études de projets et 
+l'accompagnement institutionnel. 
+                    </p> 
+                    <p> 
+                        Notre mission est de concevoir, réaliser et 
+accompagner des projets d’infrastructure innovants, en offrant des 
+services de consultance, d’études de faisabilité, et de facilitation 
+institutionnelle en RDC. 
+                    </p> 
+                    <a href="#" class="text-secondary-orange">En 
+savoir plus sur notre histoire <i class="fas fa-arrow-right 
+ml-2"></i></a> 
+                </div> 
+                <div class="team-section"> 
+                    <h3 class="text-primary-blue">Notre Équipe</h3> 
+                    <div class="team-members"> 
+                        <!-- Team Member 1 --> 
+                        <div class="team-member-item"> 
+                            <img 
+src="portrait-d-un-ingenieur-sur-le-chantier-pendant-les-heures-de-travail.jpg" 
+alt="Image of Membre 1"> 
+                            <p class="font-medium">Nom Prénom 1</p> 
+                            <p class="text-sm">Poste 1</p> 
+                        </div> 
+                        <!-- Team Member 2 --> 
+                        <div class="team-member-item"> 
+                            <img 
+src="Occupation2.jpg" 
+alt="Image of Membre 2"> 
+                            <p class="font-medium">Nom Prénom 2</p> 
+                            <p class="text-sm">Poste 2</p> 
+                        </div> 
+                        <!-- Team Member 3 --> 
+                        <div class="team-member-item"> 
+                            <img 
+src="Un électricien noir américain tenant des outils_ _ Image Premium générée à base d’IA.jpg" 
+alt="Image of Membre 3"> 
+                            <p class="font-medium">Nom Prénom 3</p> 
+                            <p class="text-sm">Poste 3</p> 
+                        </div> 
+                    </div> 
+                </div> 
+            </div> 
+ 
+            <!-- Partners Section --> 
+            <div class="partners-section fade-in-on-scroll"> 
+                <h3 class="text-primary-blue">Nos Partenaires</h3> 
+                <div class="partners-logos"> 
+                    <!-- Partner Logo 1 --> 
+                    <img 
+src="1.png" 
+alt="Image of Partenaire 1" class="partner-logo"> 
+                    <!-- Partner Logo 2 --> 
+                    <img 
+src="2.png" 
+alt="Image of Partenaire 2" class="partner-logo"> 
+                    <!-- Partner Logo 3 --> 
+                    <img 
+src="3.png" 
+alt="Image of Partenaire 3" class="partner-logo"> 
+                    <!-- Partner Logo 4 --> 
+                    <img 
+src="4.png" 
+alt="Image of Partenaire 4" class="partner-logo"> 
+                    <!-- Partner Logo 5 --> 
+                    <img 
+src="5.png" 
+alt="Image of Partenaire 5" class="partner-logo"> 
+                </div> 
+            </div> 
+        </div> 
+    </section> 
+ 
+    <!-- Services Section --> 
+    <section id="services"> 
+        <div class="container"> 
+            <h2 class="text-primary-blue fade-in-on-scroll">Nos 
+Services</h2> 
+            <div class="services-grid fade-in-on-scroll"> 
+                <!-- Service 1: Génie Civil & Infrastructures --> 
+                <div class="icon-box"> 
+                    <i class="fas fa-hard-hat 
+text-secondary-orange"></i> 
+                    <h3 class="text-primary-blue">Génie Civil & 
+Infrastructures</h3> 
+                    <p class="text-gray-600">Conception et réalisation 
+d'infrastructures de grande envergure, notamment ferroviaires, routes 
+et ponts.</p> 
+                    <a href="#" class="text-secondary-orange">En 
+savoir plus <i class="fas fa-arrow-right ml-2"></i></a> 
+                </div> 
+                <!-- Service 2: Bureau d'Études & Consultance --> 
+                <div class="icon-box"> 
+                    <i class="fas fa-chart-line 
+text-secondary-orange"></i> 
+                    <h3 class="text-primary-blue">Bureau d'Études & 
+Consultance</h3> 
+                    <p class="text-gray-600">Analyses complètes, 
+études de faisabilité et conception technique pour vos projets.</p> 
+                    <a href="#" class="text-secondary-orange">En 
+savoir plus <i class="fas fa-arrow-right ml-2"></i></a> 
+                </div> 
+                <!-- Service 3: Facilitation & Accompagnement 
+Institutionnel --> 
+                <div class="icon-box"> 
+                    <i class="fas fa-handshake 
+text-secondary-orange"></i> 
+                    <h3 class="text-primary-blue">Facilitation & 
+Accompagnement Institutionnel</h3> 
+                    <p class="text-gray-600">Appui à l'installation et 
+facilitation des procédures pour les investisseurs en RDC.</p> 
+                    <a href="#" class="text-secondary-orange">En 
+savoir plus <i class="fas fa-arrow-right ml-2"></i></a> 
+                </div> 
+                <!-- Service 4: Financement & Mobilisation des 
+Ressources --> 
+                <div class="icon-box"> 
+                    <i class="fas fa-dollar-sign 
+text-secondary-orange"></i> 
+                    <h3 class="text-primary-blue">Financement & 
+Mobilisation des Ressources</h3> 
+                    <p class="text-gray-600">Assistance pour le 
+montage de dossiers bancables et l'obtention de crédits.</p> 
+                    <a href="#" class="text-secondary-orange">En 
+savoir plus <i class="fas fa-arrow-right ml-2"></i></a> 
+                </div> 
+            </div> 
+        </div> 
+    </section> 
+ 
+    <!-- Projects Section --> 
+    <section id="projects"> 
+        <div class="container"> 
+            <h2 class="text-primary-blue fade-in-on-scroll">Nos 
+Projets</h2> 
+            <div class="projects-grid fade-in-on-scroll"> 
+                <!-- Project 1 --> 
+                <div class="project-card"> 
+                    <img 
+src="ferre.jpeg" alt="Image of Ligne Ferroviaire"> 
+                    <h3 class="text-primary-blue">Construction d'une 
+ligne ferroviaire</h3> 
+                    <p class="text-gray-600">Projet majeur de 
+construction d'une nouvelle ligne ferroviaire dans la région de 
+Kisangani, RDC.</p> 
+                    <a href="#" class="btn btn-primary">Voir le 
+projet</a> 
+                </div> 
+                <!-- Project 2 (Placeholder) --> 
+                <div class="project-card"> 
+                    <img 
+src="equipe.jpg" 
+alt="Image of Pont Urbain"> 
+                    <h3 class="text-primary-blue">Construction d'un 
+pont urbain</h3> 
+                    <p class="text-gray-600">Réalisation d'un pont 
+stratégique pour améliorer la circulation en milieu urbain.</p> 
+                    <a href="#" class="btn btn-primary">Voir le 
+projet</a> 
+                </div> 
+            </div> 
+            <div class="all-projects-link fade-in-on-scroll"> 
+                <a href="#" class="btn btn-secondary">Voir tous les 
+projets <i class="fas fa-arrow-right ml-2"></i></a> 
+            </div> 
+        </div> 
+    </section> 
+ 
+    <!-- Submit Project Section --> 
+    <section id="submit-project"> 
+        <div class="container text-center"> 
+            <h2 class="text-primary-blue fade-in-on-scroll">Soumettre 
+un projet</h2> 
+            <div class="form-container fade-in-on-scroll"> 
+                <form> 
+                    <div class="form-grid"> 
+                        <div> 
+                            <label for="name">Nom / Entreprise</label> 
+                            <input type="text" id="name" name="name" 
+placeholder="Votre nom ou nom de l'entreprise"> 
+                        </div> 
+                        <div> 
+                            <label for="subject">Objet du 
+projet</label> 
+                            <input type="text" id="subject" 
+name="subject" placeholder="Ex: Construction d'une route"> 
+                        </div> 
+                    </div> 
+                    <div class="form-grid"> 
+                        <div> 
+                            <label for="budget">Budget estimé</label> 
+                            <input type="text" id="budget" 
+name="budget" placeholder="Ex: 500 000 USD"> 
+                        </div> 
+                        <div> 
+                            <label for="location">Localisation</label> 
+                            <input type="text" id="location" 
+name="location" placeholder="Ville, Pays"> 
+                        </div> 
+                    </div> 
+                    <div class="mb-6"> 
+                        <label for="description">Description du 
+projet</label> 
+                        <textarea id="description" name="description" 
+rows="6" placeholder="Décrivez votre projet en détail..."></textarea> 
+                    </div> 
+                    <div class="file-input-wrapper"> 
+                        <label for="attachments">Pièces jointes 
+(Plans, documents...)</label> 
+                        <input type="file" id="attachments" 
+name="attachments"> 
+                    </div> 
+                    <button type="submit" class="btn 
+btn-secondary">Envoyer votre projet</button> 
+                </form> 
+            </div> 
+        </div> 
+    </section> 
+ 
+    <!-- Contact Section --> 
+    <section id="contact"> 
+        <div class="container text-center"> 
+            <h2 class="text-primary-blue 
+fade-in-on-scroll">Contactez-nous</h2> 
+            <div class="contact-grid fade-in-on-scroll"> 
+                <!-- Contact Info --> 
+                <div class="contact-info"> 
+                    <h3 class="text-primary-blue">Informations de 
+contact</h3> 
+                    <p><i class="fas fa-phone-alt 
+text-secondary-orange"></i> Téléphone: +243 8X XXX XXXX</p> 
+                    <p><i class="fas fa-envelope 
+text-secondary-orange"></i> Email: info@mascoenergie.com</p> 
+                    <p><i class="fas fa-map-marker-alt 
+text-secondary-orange"></i> Adresse: Kisangani, République 
+Démocratique du Congo</p> 
+ 
+                    <h3 class="text-primary-blue" style="margin-top: 
+1.5rem;">Suivez-nous</h3> 
+                    <div class="social-links"> 
+                        <a href="https://linkedin.com" 
+target="_blank"><i class="fab fa-linkedin"></i></a> 
+                        <a href="https://facebook.com" 
+target="_blank"><i class="fab fa-facebook-square"></i></a> 
+                        <a href="https://wa.me/243" target="_blank"><i 
+class="fab fa-whatsapp-square"></i></a> 
+                    </div> 
+                </div> 
+ 
+                <!-- Google Map Placeholder --> 
+                <div class="map-container"> 
+                    <!-- Replace with actual Google Map embed --> 
+                    <iframe 
+                        
+src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15967.65363
+ 8487834!2d25.1970228!3d0.5134768!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13
+ .1!3m3!1m2!1s0x170b04a0e9a7e04f%3A0x6b45f4c5e7b8f9a2!2sKisangani%2C%20
+ R%C3%A9publique%20D%C3%A9mocratique%20du%20Congo!5e0!3m2!1sfr!2scd!4v1
+ 678912345678!5m2!1sfr!2scd" 
+                        allowfullscreen="" 
+                        loading="lazy" 
+                        referrerpolicy="no-referrer-when-downgrade"> 
+                    </iframe> 
+                </div> 
+            </div> 
+        </div> 
+    </section> 
+ 
+    <!-- Footer --> 
+    <footer> 
+        <div class="container footer-content"> 
+            <div> 
+                <p>© 2025 Masco Énergie et Construction. Desing By Optimum Entreprise. Tous droits 
+réservés.</p> 
+                <p style="margin-top: 0.5rem;">Construire l'Afrique, 
+Concevoir l'avenir.</p> 
+            </div> 
+            <div class="quick-links"> 
+                <a href="#">Mentions légales</a> 
+                <a href="#">Politique de confidentialité</a> 
+            </div> 
+            <div class="quick-links"> 
+                <a href="#hero">Accueil</a> 
+                <a href="#services">Services</a> 
+                <a href="#projects">Projets</a> 
+                <a href="#contact">Contact</a> 
+            </div> 
+        </div> 
+    </footer> 
+ 
+    <script> 
+        // Smooth scrolling for navigation links 
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => { 
+            anchor.addEventListener('click', function (e) { 
+                e.preventDefault(); 
+ 
+                
+document.querySelector(this.getAttribute('href')).scrollIntoView({ 
+                    behavior: 'smooth' 
+                }); 
+ 
+                // Close mobile menu after clicking a link 
+                const mobileMenu = 
+document.getElementById('mobile-menu'); 
+                if (mobileMenu.classList.contains('is-open')) { 
+                    mobileMenu.classList.remove('is-open'); 
+                } 
+            }); 
+        }); 
+ 
+        // Mobile menu toggle 
+        const mobileMenuButton = 
+document.getElementById('mobile-menu-button'); 
+        const mobileMenu = document.getElementById('mobile-menu'); 
+        const desktopNav = document.getElementById('main-nav'); 
+ 
+        mobileMenuButton.addEventListener('click', () => { 
+            mobileMenu.classList.toggle('is-open'); 
+        }); 
+ 
+        // Hide mobile menu and show desktop nav on resize if larger than MD breakpoint 
+        window.addEventListener('resize', () => { 
+            if (window.innerWidth >= 768) { // Matches md breakpoint 
+                mobileMenu.classList.remove('is-open'); // Ensure mobile menu is closed 
+                desktopNav.style.display = 'flex'; // Ensure desktop nav is visible 
+            } else { 
+                desktopNav.style.display = 'none'; // Hide desktop nav on mobile 
+            } 
+        }); 
+ 
+        // Ensure initial state based on screen size 
+        window.onload = function() { 
+            if (window.innerWidth >= 768) { 
+                desktopNav.style.display = 'flex'; 
+                mobileMenu.classList.remove('is-open'); 
+            } else { 
+                desktopNav.style.display = 'none'; 
+            } 
+        }; 
+ 
+        // Hero Section Image Carousel 
+        const heroBackgrounds = [ 
+            document.getElementById('hero-carousel-bg-1'), 
+            document.getElementById('hero-carousel-bg-2'), 
+            document.getElementById('hero-carousel-bg-3'), 
+            document.getElementById('hero-carousel-bg-4'), 
+            document.getElementById('hero-carousel-bg-5') 
+        ]; 
+        let currentBackgroundIndex = 0; 
+ 
+        function changeHeroBackground() { 
+            // Remove 'active' class from current background 
+            
+heroBackgrounds[currentBackgroundIndex].classList.remove('active'); 
+ 
+            // Move to the next background, loop if at the end 
+            currentBackgroundIndex = (currentBackgroundIndex + 1) % 
+heroBackgrounds.length; 
+ 
+            // Add 'active' class to the new background 
+            
+heroBackgrounds[currentBackgroundIndex].classList.add('active'); 
+        } 
+ 
+        // Change background every 5 seconds (5000 milliseconds) 
+        setInterval(changeHeroBackground, 5000); 
+ 
+ 
+        // Intersection Observer for fade-in animations on scroll 
+        const faders = document.querySelectorAll('.fade-in-on-scroll, .team-member-item, .partner-logo'); 
+ 
+        const appearOptions = { 
+            threshold: 0.1, /* 10% of element visible to trigger */ 
+            rootMargin: "0px 0px -50px 0px" /* Shrink bottom margin to 
+trigger slightly earlier */ 
+        }; 
+ 
+        const appearOnScroll = new 
+IntersectionObserver(function(entries, appearOnScroll) { 
+            entries.forEach(entry => { 
+                if (!entry.isIntersecting) { 
+                    return; // Not in viewport 
+                } else { 
+                    // Add 'is-visible' class to trigger CSS transition/animation 
+                    entry.target.classList.add('is-visible'); 
+                    // Stop observing once animated 
+                    appearOnScroll.unobserve(entry.target); 
+                } 
+            }); 
+        }, appearOptions); 
+ 
+        faders.forEach(fader => { 
+            appearOnScroll.observe(fader); 
+        }); 
+    </script> 
+</body> 
+</html> 
+ 
